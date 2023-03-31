@@ -1,0 +1,18 @@
+importar o JOptionpane
+
+crir uma variavel para armazenar o alfabeto e numeros
+
+coletar o texto usando o JOptionpane
+separar o texto em uma lista de caracteres
+criar uma variavel para armazenar os caracteres depois de cifrar o texto
+criar uma variavel para armanezar o texto cifrado
+
+para cada caractere no texto:
+    verificar se o caractere no alfabeto o é um numero:
+        mudar o caractere para o caractere 3 casas depois no alfabeto
+    caso contrario o caractere não é cifrado
+
+    armazenar cada caractere na lista de caracteres cifrados
+
+converter a lista de caracteres cifrados em um texto cifrado
+mostrar o texto cifrado

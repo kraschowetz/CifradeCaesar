@@ -29,7 +29,8 @@ public class App {
 
         //verificar se o caractere esta no alfabeto
         for(int i = 0; i < alphabet.length; i++){
-            if(c == alphabet[i]){
+            String cc = String.valueOf(c);
+            if(cc.equalsIgnoreCase(String.valueOf(alphabet[i]))){   
                 //se o caractere estiver no alfabeto ele coleta o id do caractere
                 isInAlphabet = true;
                 id = i;
